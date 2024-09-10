@@ -25,32 +25,40 @@ export default function About() {
 		<Section classProp={about.section}>	
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
-					title="About Me"
-					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
+					title="Sobre mí"
+					preTitle="Sinopsis"
+					subTitle="Soy un profesional digital con habilidades en diseño UX/UI y desarrollo full stack,
+					especializado en la creación de experiencias de usuario intuitivas y funcionales. Mi experiencia abarca tanto el frontend como el backend,
+					lo que me permite ofrecer soluciones completas y eficientes.
+					Además, como IT Manager apasionado por la tecnología, tengo una sólida experiencia en la gestión de infraestructuras tecnológicas y operativas,
+					siempre buscando optimizar procesos y aprovechar la innovación para transformar digitalmente las organizaciones."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<Image src="/img/family-photo.jpg" alt="Nelson family photo" width={600} height={800}/>
+						<Image src="/img/temporal.jpg" alt="Foto Saludando" width={600} height={800}/>
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
 						<CopyBlock 
-							title="Softskills that pay the bills"
+							title="Habilidades blandas que pagan las cuentas"
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							copy="Además de mi experiencia en diseño y tecnología, también tengo habilidades sólidas de liderazgo, gestión del tiempo y multitarea,
+							desarrolladas a través de mi experiencia como lider de TI en un colegio privado.
+							Fuera del trabajo, me gusta mantenerme activo practicando deportes como futbol.
+							Tengo confianza en mi capacidad para aportar pasión y valor a cualquier proyecto."
 						/>
 						<BadgesBlock 
-							title="Reasearch and planning" 
+							title="Investigación y planificación" 
 							containerClass={about.container}
 							list={methods} 
 							fullContainer="fullContainer"
 							block="methods" 
 							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
-							//invertedColor="invertedColor"
+							copy="Uno de los aspectos que más me gusta de la creación es planificar la arquitectura de un proyecto.
+							Desde los sistemas de diseño hasta la estrategia de marca, disfruto trabajando con los muchos puntos de contacto de la experiencia del usuario."
+							invertedColor="invertedColor"
 							headerIcon={`${about.icon}`}
 						/>
 					</div>
@@ -60,11 +68,11 @@ export default function About() {
 	)
 }
 
-const methods 	= [
-	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },
-	{ key: 'qrcode', 			name: 'Digital Strategy', 	type: 'fad' },
-	{ key: 'window', 			name: 'Design Systems', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Brand Strategy', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Operations', 		type: 'fad' },
-]
+const methods = [
+	{ key: 'planet-moon', name: 'Investigación', type: 'fad' },
+	{ key: 'qrcode', name: 'Estrategia Digital', type: 'fad' },
+	{ key: 'window', name: 'Sistemas de Diseño', type: 'fad' },
+	{ key: 'cubes', name: 'Estrategia de Producto', type: 'far' },
+	{ key: 'layer-plus', name: 'Estrategia de Marca', type: 'fad' },
+	{ key: 'solar-system', name: 'Operaciones', type: 'fad' },
+];

@@ -1,10 +1,10 @@
 [
 	{
-		"project": "My Supply Co.",
-		"url": "https://mysupplyco.com",
+		"project": "Protec App",
+		"url": "https://ProtecApp.co",
 		"repo": "Private",
-		"descriptionTitle": "D2C & B2B ecommerce site and blog",
-		"description": "with elegant solutions for a complex codebase and customer journey.",
+		"descriptionTitle": "App para el manejo de inventario y cotizaciones.",
+		"description": "Es una aplicación web para el manejo de inventario y cotizaciones. Desarrollada en Vue y FastAPI, con una base de datos en Postgresql.",
 		"imageOptions": [
 		],
 		"images": [
@@ -13,15 +13,11 @@
 			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
 		],
 		"stack": [
-			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },
-			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
+			{ "key": "postgresql", 	"name": "postgresql", 	"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "jquery", 		"name": "jQuery", 		"type": "devicon" },
-			{ "key": "woocommerce", "name": "WooCommerce", 	"type": "devicon" },
-			{ "key": "wordpress",	"name": "Wordpress", 	"type": "devicon" },
 			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
 			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
+			{ "key": "tailwind",	"name": "Tailwind", 		"type": "devicon" },
 			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
 			{ "key": "google",		"name": "GA4/GTM/EEC", 	"type": "devicon" }
 		]

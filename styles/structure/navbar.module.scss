@@ -54,6 +54,7 @@
 			font-family: var(--font-accent);
 			font-weight: 700;
 			color: var(--primary);
+			white-space: nowrap;
 
 			&:hover {
 				color: var(--primary-bright);
@@ -83,6 +84,11 @@
 			align-items: center;
 			text-align: center;
 			gap: 4rem;
+			gap: 2rem;  // Reducido de 4rem para ajustar el espacio
+			padding: 0 1rem;  // Añadido para dar espacio en los extremos
+			flex-wrap: nowrap;  // Añadido para prevenir saltos de línea
+			overflow-x: auto;  // Añadido para permitir desplazamiento horizontal si es necesario
+			-webkit-overflow-scrolling: touch;  // Para un desplazamiento suave en iOS
 		}
 	}
 
@@ -207,6 +213,8 @@
 				flex-direction: column;
 				gap: 2rem;
 				margin: 2rem;
+				flex-wrap: wrap;  // Cambiado para permitir envoltura en móviles
+				overflow-x: visible;  // Revertido para móviles
 			}
 		}
 	}

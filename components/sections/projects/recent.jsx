@@ -1,20 +1,18 @@
-// Section structure
-import Section 		from '../../structure/section';
-import Container 	from '../../structure/container';
-
 import Image from 'next/image'
 
-import Icon from '../../utils/icon.util'
-
 import css from '../../../styles/sections/projects/recent.module.scss'
+import Container 	from '../../structure/container';
+// Section structure
+import Section 		from '../../structure/section';
+import Icon from '../../utils/icon.util'
 
 export default function GitProjects({ repos, user }) {
 	return (
 		<Section classProp={css.section}>	
 			<Container classProp={css.container} spacing={'verticalXXXLrg'}>
-				<h3>Recent Projects</h3>
+				<h3>Proyectos Recientes</h3>
 				<section className={css.profile}>
-					<Image className={css.profilePhoto} src={`${user[0].avatar_url}`} alt="Github Profile Photo" height={60} width={60}/>
+					<Image className={css.profilePhoto} src={`${user[0].avatar_url}`} alt="Foto de Perfil de Github" height={60} width={60}/>
 					<span class={css.details}>
 						<p>{user[0].name}</p>
 						<a href={user[0].html_url} rel="noreferrer" target="_blank">{user[0].html_url} <Icon icon={[ 'far', 'arrow-up-right-from-square' ]} /></a>
@@ -35,7 +33,7 @@ export default function GitProjects({ repos, user }) {
 									<p className={css.description}>{description}</p>
 								</span>
 								<span className={css.details}>
-									<p><i className={`devicon-${language.toLowerCase()}-plain colored`} /> {language}</p>
+									<p><i className={`devicon-${language}-plain colored`} /> {language}</p>
 									<p><Icon icon={[ 'fad', 'star' ]} /> {watchers}</p>
 									<p><Icon icon={[ 'fad', 'code-branch' ]} /> {forks_count}</p>
 									<p className={css.pushedAt}>{date}</p>

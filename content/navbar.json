@@ -1,18 +1,21 @@
+
 [
-	{
-		"url": "/",
-		"title": "Sobre mí"
-	},
-	{
-		"url": "/case-studies",
-		"title": "Estudios de caso"
-	},
-	{
-		"url": "/articles",
-		"title": "Artículos"
-	},
-	{
-		"url": "/projects",
-		"title": "Proyectos"
-	}
+	
+		{
+		  "url": "/#about",
+		  "title": "Sobre mí"
+		},
+		{
+		  "url": "/#featured-projects",
+		  "title": "Proyectos Destacados"
+		},
+		{
+		  "url": "/#technical",
+		  "title": "Habilidades Técnicas"
+		},
+		{
+		  "url": "/#career",
+		  "title": "Experiencia"
+		}
+	  
 ]
