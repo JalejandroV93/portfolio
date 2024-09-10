@@ -1,14 +1,14 @@
 {
-	"name": "Andrew Nelson",
+	"name": "Alejandro Vasquez",
 	"logo": "",
 	
 	"username": {
-		"github": "atlamors",
-		"medium": "@--andrewnelson"
+		"github": "JalejandroV93",
+		"medium": "@JalejandroV93"
 	},
 
 	"portfolio": { 
-		"forkthis": "Steal this theme! Its open-source 🥰",
+		"forkthis": "Tema por andrewnelson",
 		"repo_html": "https://www.github.com/atlamors/portfolio",
 		"repo_api": "https://api.github.com/repos/atlamors/portfolio"
 	}

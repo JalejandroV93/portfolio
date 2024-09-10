@@ -1,7 +1,7 @@
 {
 	"intro": {
-		"start": "const Andrew = ( name, passion ) =>",
-		"end": "Hello, my name is",
+		"start": "const Alejandro = (nombre, pasión) =>",
+		"end": "Hola, mi nombre es",
 		"speed": 60,
 		"deletionSpeed": 80,
 		"wrapper": "h2",
@@ -11,15 +11,15 @@
 	},
 
 	"header": {
-		"name": "Andrew Nelson.",
-		"usp": "I design and build meaningful experiences."
+		"name": "Alejandro Vásquez",
+		"usp": "Diseño y construyo experiencias significativas."
 	},
 
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+	"paragraph": "Soy un apasionado por la tecnología y un creador digital en constante evolución, impulsado por mi interés en el aprendizaje continuo y un fuerte deseo de dejar un impacto duradero a través de cada uno de mis proyectos.",
 
 	"buttons": {
 		"primary": {
-			"title": "Contact Me",
+			"title": "Contáctame",
 			"url": "",
 			"leaveSite": false
 		},

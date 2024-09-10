@@ -1,20 +1,17 @@
 // Core packages
 import Image from 'next/image'
 
-// Section structure
-import Section from '../../structure/section';
-import Container from '../../structure/container';
-
-// Section general blocks
-import SectionTitle from '../../blocks/section.title.block'
-import SectionGridBg from '../../blocks/section.grid.block'
-
+// Section scss
+import about from '../../../styles/sections/index/about.module.scss';
 // Section specific blocks
 import BadgesBlock from '../../blocks/about.badges.block'
 import CopyBlock from '../../blocks/about.copy.block'
-
-// Section scss
-import about from '../../../styles/sections/index/about.module.scss';
+import SectionGridBg from '../../blocks/section.grid.block'
+// Section general blocks
+import SectionTitle from '../../blocks/section.title.block'
+import Container from '../../structure/container';
+// Section structure
+import Section from '../../structure/section';
 
 /**
  * Section: About
@@ -34,7 +31,7 @@ export default function About() {
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
+						<Image src="/img/family-photo.jpg" alt="Nelson family photo" width={600} height={800}/>
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
