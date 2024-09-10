@@ -9,25 +9,27 @@ const calculateDuration = (startDate, endDate) => {
     const months = Math.floor((diffDays % 365) / 30);
     
     return { years, months };
-  };
-  
-  const formatDate = (dateString) => {
+};
+
+const formatDate = (dateString) => {
     const date = new Date(dateString);
-    return date.toLocaleString('es-ES', { month: 'short', year: 'numeric' });
-  };
-  
-  export const formatDuration = (years, months) => {
+    const month = date.toLocaleString('es-ES', { month: 'long' });
+    const capitalizedMonth = month.charAt(0).toUpperCase() + month.slice(1);
+    const year = date.getFullYear();
+    return `${capitalizedMonth} ${year}`;
+};
+
+export const formatDuration = (years, months) => {
     const parts = [];
     if (years > 0) parts.push(`${years} año${years !== 1 ? 's' : ''}`);
     if (months > 0) parts.push(`${months} mes${months !== 1 ? 'es' : ''}`);
     return parts.join(' ');
-  };
-  
-  export const formatDateRange = (startDate, endDate) => {
+};
+
+export const formatDateRange = (startDate, endDate) => {
     const formattedStartDate = formatDate(startDate);
     const formattedEndDate = endDate ? formatDate(endDate) : 'Presente';
     const { years, months } = calculateDuration(startDate, endDate);
     const durationString = formatDuration(years, months);
     return `${formattedStartDate} - ${formattedEndDate}${durationString ? ` · ${durationString}` : ''}`;
-  };
-  
+};

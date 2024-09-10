@@ -18,70 +18,66 @@
         "title": "Lider del Area de Tecnologia",
         "startDate": "2022-06-01",
         "endDate": null,
-        "description": "Soy responsable de la ideación, planificación y desarrollo de nuevos bienes de consumo y software de microservicios para clientes y empleados. Durante estos proyectos, trabajo con las partes interesadas clave dentro de nuestra empresa y cadena de suministro para garantizar y cumplir los objetivos de calidad en múltiples dominios.",
+        "description": "Soy responsable de administrar y gestionar la plataforma educativa, coordinar el equipo de soporte tecnológico y liderar la implementación de soluciones digitales para la gestión de la institución.",
         "achievements": null,
-        "badges": null
+        "badges": 
+            [
+                { "key": "linux", "name": "Linux", "type": "devicon" },
+                { "key": "ubuntu", "name": "Ubuntu", "type": "devicon" },
+                { "key": "windows8", "name": "Windows", "type": "devicon" },
+                { "key": "nodejs", "name": "Node.js", "type": "devicon" },
+                { "key": "express", "name": "Express", "type": "devicon" },
+                { "key": "python", "name": "Python", "type": "devicon" },
+                { "key": "fastapi", "name": "FastAPI", "type": "devicon" },
+                { "key": "git", "name": "Git", "type": "devicon" },
+                { "key": "docker", "name": "Docker", "type": "devicon" },
+                { "key": "jenkins", "name": "Jenkins", "type": "devicon" },
+                { "key": "amazonwebservices", "name": "AWS", "type": "devicon" },
+                { "key": "azure", "name": "Azure", "type": "devicon" },
+                { "key": "slack", "name": "Slack", "type": "devicon" },
+                { "key": "teams", "name": "Teams", "type": "devicon" },
+                { "key": "zoom", "name": "Zoom", "type": "devicon" },
+                { "key": "cpanel", "name": "cPanel", "type": "devicon" },
+                { "key": "html5", "name": "HTML5", "type": "devicon" },
+                { "key": "css3", "name": "CSS", "type": "devicon" },
+                { "key": "javascript", "name": "JavaScript", "type": "devicon" },
+                { "key": "react", "name": "React", "type": "devicon" },
+                { "key": "nextjs", "name": "Next.js", "type": "devicon" },
+                { "key": "tailwindcss", "name": "Tailwind", "type": "devicon" },
+                { "key": "wordpress", "name": "WordPress", "type": "devicon" },
+                { "key": "woocommerce", "name": "WooCommerce", "type": "devicon" }
+            ]
+        
       },
       {
-        "title": "Desarrollador Full Stack y Diseñador de Experiencia de Usuario",
-        "startDate": "2020-02-01",
-        "endDate": "2021-11-30",
-        "description": "Como desarrollador full stack líder, soy responsable del desarrollo de software, CI/CD y control de calidad. Esto incluye el front-end, las API y el back-end. Además, se me asignó la tarea de identificar y analizar los puntos débiles en el recorrido del cliente y los flujos de trabajo de los empleados. Cada proyecto tuvo que ser estimado y priorizado en función de su carga de trabajo y su impacto inmediato en la eficiencia o los ingresos. Algunos de estos proyectos han tenido tanto éxito internamente que hemos planeado su refactorización para su comercialización.",
+        "title": "Soporte Tecnopedagogico",
+        "startDate": "2020-12-01",
+        "endDate": "2022-05-31",
+        "description": "Brindar soporte tecnologico a docentes y estudiantes, para la implementación de tecnologias en el aula de clase.",
         "achievements": [
           {
-            "title": "Pruebas automatizadas de atributos y configuraciones de productos",
-            "result": "Eliminación de errores críticos en la entrada de datos"
+            "title": "Mejorar tolerancia a fallos de la red de datos de la institución",
+            "result": "Eliminación de interrupciones de red en un 99.9%"
           },
           {
-            "title": "Informes y automatización de gestión de inventario",
-            "result": "Reducción del trabajo de compra en un ~80%"
+            "title": "Capacitación de docentes en el uso de tecnologias educativas",
+            "result": "Aumento del uso de tecnologias en el aula en un 30%"
           },
           {
-            "title": "Plugin de gestión de ventas con integración de carrito de compras AJAX",
-            "result": "Aumento del valor promedio de pedido en un 8.3%"
-          },
-          {
-            "title": "Software de verificación de identificación personalizado e integración con WooCommerce",
-            "result": "Reducción del fraude con tarjetas de crédito en un 98%"
+            "title": "Configuración y administracion de la plataforma educativa brightspace",
+            "result": "100% de los docentes capacitados en la plataforma"
           }
         ],
         "badges": [
         { "key": "html5", "name": "HTML", "type": "devicon" },
         { "key": "css3", "name": "CSS", "type": "devicon" },
         { "key": "javascript", "name": "JavaScript", "type": "devicon" },
-        { "key": "react", "name": "React", "type": "devicon" },
-        { "key": "figma", "name": "Figma", "type": "devicon" },
-        { "key": "adobexd", "name": "Adobe XD", "type": "devicon" },
-        { "key": "postgresql", "name": "PostgreSQL", "type": "devicon" }
+        { "key": "php", "name": "PHP", "type": "devicon" },
+        { "key": "mysql", "name": "MySQL", "type": "devicon" },
+        { "key": "moodle", "name": "Moodle", "type": "devicon" },
+        { "key": "brightspace", "name": "Brightspace", "type": "devicon" }
       ]
-      },
-      {
-        "title": "Desarrollador Front-End y Diseñador de Interfaz de Usuario",
-        "startDate": "2019-04-01",
-        "endDate": "2020-02-29",
-        "description": "Fui contratado para cubrir varios roles creativos en un entorno de inicio pequeño. Trabajé con el equipo de marketing para crear la marca y los logotipos, diseñé y desarrollé un nuevo front-end para el sitio web y mejoré la experiencia de los usuarios y los KPI de la tienda a través de optimizaciones de diseño y merchandising.",
-        "achievements": [
-          {
-            "title": "Carrito de compras interactivo de funcionalidad completa para reemplazar la página del carrito",
-            "result": "Aumento de las conversiones en un 0.7%"
-          },
-          {
-            "title": "Menús animados de varios estados complejos representados en una interfaz elegante",
-            "result": "Impulso de confianza en la marca con un menú de última generación"
-          },
-          {
-            "title": "Diseño y desarrollo del sitio y estrategia de merchandising optimizada para el mercado",
-            "result": "Tasa de conversión general del 7.1%"
-          }
-        ],
-"badges": [
-        { "key": "react", "name": "React", "type": "devicon" },
-        { "key": "nodejs", "name": "Node.js", "type": "devicon" },
-        { "key": "express", "name": "Express", "type": "devicon" },
-        { "key": "mongodb", "name": "MongoDB", "type": "devicon" },
-        { "key": "git", "name": "Git", "type": "devicon" },
-        { "key": "jenkins", "name": "CI/CD", "type": "devicon" }
-      ]      }
+      }
     ],
     "previousPositions": [
       {
@@ -91,7 +87,14 @@
         "endDate": "2020-12-31",
         "location": "Pereira, Risaralda, Colombia",
         "description": "Era el encargado de brindar soporte técnico a los clientes de la empresa, realizando mantenimiento preventivo y correctivo a los equipos de cómputo y redes.",
-        "logo": "/img/logos/ecotecnologia.png"
+        "logo": "/img/logos/ecotecnologia.png",
+        "badges": [
+            [
+                { "key": "linux", "name": "Linux", "type": "devicon" },
+                { "key": "ubuntu", "name": "Ubuntu", "type": "devicon" },
+                { "key": "windows8", "name": "Windows", "type": "devicon" }
+            ]
+        ]
       },
       {
         "company": "Liceo Taller San Miguel",
@@ -100,7 +103,14 @@
         "endDate": "2018-12-31",
         "location": "Pereira, Risaralda, Colombia",
         "description": "Realice mis practicas como tecnologo en sistemas, realizando mantenimiento y soporte a la infraestructura tecnologica de la institucion.",
-        "logo": "/img/company-logoi.png"
+        "logo": "/img/company-logoi.png",
+        "badges": [
+            [
+                { "key": "linux", "name": "Linux", "type": "devicon" },
+                { "key": "ubuntu", "name": "Ubuntu", "type": "devicon" },
+                { "key": "windows8", "name": "Windows", "type": "devicon" }
+            ]
+        ]
       },
       {
         "company": "Soportec",
