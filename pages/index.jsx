@@ -12,6 +12,7 @@ export default function HomePage() {
   return (
     <>
       <Color colors={colors} />
+      <Hero/>
       <section id="featured-projects">
         <FeaturedProjects />
       </section>
