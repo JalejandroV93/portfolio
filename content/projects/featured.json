@@ -21,5 +21,28 @@
 			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
 			{ "key": "google",		"name": "GA4/GTM/EEC", 	"type": "devicon" }
 		]
+	},
+	{
+		"project": "Gestión de Viajes",
+		"url": "https://ProtecApp.co",
+		"repo": "Private",
+		"descriptionTitle": "App para el manejo de inventario y cotizaciones.",
+		"description": "Es una aplicación web para el manejo de inventario y cotizaciones. Desarrollada en Vue y FastAPI, con una base de datos en Postgresql.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
+			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
+			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+		],
+		"stack": [
+			{ "key": "postgresql", 	"name": "postgresql", 	"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
+			{ "key": "tailwind",	"name": "Tailwind", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{ "key": "google",		"name": "GA4/GTM/EEC", 	"type": "devicon" }
+		]
 	}
 ]

@@ -6,7 +6,7 @@ import about from '../../../styles/sections/index/about.module.scss';
 // Section specific blocks
 import BadgesBlock from '../../blocks/about.badges.block'
 import CopyBlock from '../../blocks/about.copy.block'
-import SectionGridBg from '../../blocks/section.grid.block'
+//import SectionGridBg from '../../blocks/section.grid.block'
 // Section general blocks
 import SectionTitle from '../../blocks/section.title.block'
 import Container from '../../structure/container';
@@ -35,7 +35,7 @@ export default function About() {
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<Image src="/img/temporal.jpg" alt="Foto Saludando" width={600} height={800}/>
+						<Image src="/img/me.jpg" alt="Foto Saludando" width={600} height={800}/>
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >

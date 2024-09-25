@@ -5,8 +5,9 @@ import SectionTitle from '../../blocks/section.title.block'
 import Container 	from '../../structure/container';
 // Section structure
 import Section 		from '../../structure/section';
-import Badges 		from '../../utils/badge.list.util'
-import Icon 		from '../../utils/icon.util'
+
+//import Badges 		from '../../utils/badge.list.util'
+//import Icon 		from '../../utils/icon.util'
 
 // ,
 // 	{
